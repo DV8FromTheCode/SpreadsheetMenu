@@ -1,0 +1,26 @@
+name: SpreadsheetMenu
+version: '1.0'
+main: com.spreadsheetmenu.plugin.SpreadsheetMenu
+api-version: '1.21'
+depend: [PlaceholderAPI]
+authors: [YourName]
+description: A plugin that creates inventory GUIs configured using CSV files
+
+# IMPORTANT: Commands cannot be dynamically registered at runtime.
+# It's recommended to use the main command with subcommands instead (e.g., /spm open main_menu).
+# Menu permissions are handled dynamically and don't need to be defined here.
+# Item permissions are also handled dynamically and don't need to be defined here.
+# General plugin permissions (admin, vip, storage) are also handled dynamically.
+commands:
+  spreadsheetmenu:
+    description: Main command for SpreadsheetMenu
+    usage: /spreadsheetmenu <reload|open|list> [menu_id]
+    aliases: [spm]
+    permission: spreadsheetmenu.command
+permissions:
+  spreadsheetmenu.command:
+    description: Allows using the main command
+    default: op
+  spreadsheetmenu.reload:
+    description: Allows reloading the plugin configuration
+    default: op 

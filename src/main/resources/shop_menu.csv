@@ -1,0 +1,8 @@
+slot,material,amount,name,lore,command,priority,show_condition
+0,COMPASS,1,&6Back to Main Menu,&7Click to return to|&7the main menu,[open] main_menu,0,""
+4,EMERALD,1,&aBuy Items,&7Click to browse|&7items for purchase,[open] shop_buy_menu,0,""
+6,GOLD_INGOT,1,&eSell Items,&7Click to sell your|&7items for money,[open] shop_sell_menu,0,""
+22,DIAMOND,1,&bVIP Shop,&7Special items for|&7VIP players only,[open] shop_vip_menu,0,"%player_has_permission_spreadsheetmenu.vip%"
+24,NETHER_STAR,1,&5Special Offers,&7Limited time deals|&7and discounts,[open] shop_special_menu,0,""
+40,PAPER,1,&fBalance: &a$%vault_eco_balance_formatted%,&7Your current balance|&7Click to refresh,[player] balance,0,""
+49,BARRIER,1,&cClose Menu,&7Click to close this menu,[close],0,"" 

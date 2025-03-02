@@ -1,0 +1,9 @@
+slot,material,amount,name,lore,command,priority,show_condition
+4,COMPASS,1,&6Main Menu,&7You are in the main menu|&7Select a category below,,0,""
+11,DIAMOND_SWORD,1,&bWeapons Menu,&7Click to browse weapons|&7and combat items,[open] weapons_menu,0,""
+13,GOLDEN_APPLE,1,&6Items Menu,&7Click to browse various|&7useful items,[open] items_menu,0,""
+15,EMERALD,1,&aShop Menu,&7Click to open the shop|&7Buy and sell items,[open] shop_menu,0,""
+22,BOOK,1,&eHelp Menu,&7Click for help and|&7information,[open] help_menu,0,""
+31,ENDER_CHEST,1,&5Storage Menu,&7Click to access your|&7personal storage,[open] storage_menu,0,"%player_has_permission_spreadsheetmenu.storage%"
+40,REDSTONE_COMPARATOR,1,&cAdmin Panel,&7Click to access admin|&7controls and settings,[open] admin_menu,0,"%player_has_permission_spreadsheetmenu.admin%"
+49,BARRIER,1,&cClose Menu,&7Click to close this menu,[close],0,"" 

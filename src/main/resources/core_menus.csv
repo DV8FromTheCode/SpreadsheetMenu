@@ -1,0 +1,9 @@
+menu_id,menu_name,open_condition,permission,escapeable
+example_menu,&6Example Menu,,spreadsheetmenu.menu.example,true
+main_menu,&8Main Menu,,spreadsheetmenu.menu.main,true
+weapons_menu,&8Weapons Menu,,spreadsheetmenu.menu.weapons,true
+items_menu,&8Items Menu,,spreadsheetmenu.menu.items,true
+shop_menu,&8Shop Menu,,spreadsheetmenu.menu.shop,true
+shop_buy_menu,&8Buy Items,,spreadsheetmenu.menu.shop,true
+admin_menu,&4Admin Menu,,%player_has_permission_spreadsheetmenu.admin%,true
+help_menu,&eHelp Menu,,spreadsheetmenu.menu.help,true

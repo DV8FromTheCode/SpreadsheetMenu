@@ -1,0 +1,8 @@
+slot,material,amount,name,lore,command,priority,show_condition
+0,COMPASS,1,&6Back to Main Menu,&7Click to return to|&7the main menu,[open] main_menu,0,""
+4,BOOK,1,&eServer Rules,&7Click to view the|&7server rules,[player] rules,0,""
+13,PAPER,1,&fCommands List,&7Click to view all|&7available commands,[player] help,0,""
+22,EMERALD,1,&aVote for Server,&7Click to view|&7voting links,[player] vote,0,""
+31,DIAMOND,1,&bDonation Info,&7Click to view|&7donation perks,[player] donate,0,""
+40,REDSTONE,1,&cReport a Player,&7Click to report|&7a rule breaker,[player] report,0,""
+49,BARRIER,1,&cClose Menu,&7Click to close this menu,[close],0,"" 
